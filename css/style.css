@@ -447,6 +447,17 @@ label.error{
 .text-white{
   color: #fff;
 }
+.text-name{
+  color:white;
+ 
+  
+}
+.iam{
+  color: white;
+  font-size: 5.5rem;
+}
+
+
 
 .text-primary{
   color:#c32865!important;
@@ -1191,10 +1202,12 @@ a.brand:focus{
   margin: 0;
 }
 .names{
-  padding-top: 350px;
+  padding-top: 370px;
   padding-bottom: 0;
-  font-size: 6.54rem;
+  font-size: 7rem;
   margin-bottom: 0;
+  
+  
 }
 
 
