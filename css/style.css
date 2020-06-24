@@ -2082,6 +2082,119 @@ a.brand:focus{
   text-underline-position: below;
 }
 
+.bg-changer1{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+}
+
+.bg-changer1 .section-bg1{
+  opacity: 0;
+  will-change: opacity, transform;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: opacity 0.5s 0.2s ease,  transform 5s 0.2s ease;
+  -o-transition: opacity 0.5s 0.2s ease,  transform 5s 0.2s ease;
+  transition: opacity 0.5s 0.2s ease, transform 5s 0.2s ease;
+}
+
+.bg-changer1 .active1{
+  opacity: 1;
+  -webkit-transform: scale(1.05);
+  -ms-transform:scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.bg-changer1 .section-bg1:first-child{
+  opacity: 1;
+}
+
+.section-31 .vertical-title1{
+  top:7.4rem;
+}
+
+.row-project-box1{
+  margin-top: -30px;
+}
+
+.col-project-box1{
+  margin-top: 30px;
+}
+
+.project-box1{
+  display: block;
+  padding: 20%;
+  position: relative;
+  border:1px solid #fff;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s  ease;
+ 
+}
+
+.project-box-inner1{
+  position: absolute;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  padding:30px 30px;
+ 
+}
+
+.project-box1 h5{
+  margin:0;
+  color: #fff;
+}
+
+.project-category1{
+  color: #cccccc;
+  margin-top: 0.5rem;
+}
+
+.project-box1:hover{
+  background: #c32865;
+  text-decoration: none;
+  border-color: transparent;
+}
+
+.project-box1:hover h5{
+  color: #000;
+}
+
+.project-box1:hover .project-category1{
+  color:#666666;
+}
+
+.link-arrow1.h5{
+  text-transform: uppercase;
+  letter-spacing: -0.025rem;
+  margin-bottom: 0;
+}
+
+.link-arrow1.h5 .icon-chevron-right1{
+  font-size: 1.8rem;
+  margin-top: -0.45rem;
+}
+
+
+.section-31 .link-arrow1.h5{
+  margin-top: 4rem;
+}
+
+
+.section-41 h2{
+  margin-bottom: 7rem;
+}
+
+
+
+
 
 /* 5.6 Min Height 700px */
 
