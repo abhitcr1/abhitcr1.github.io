@@ -1190,9 +1190,16 @@ a.brand:focus{
   letter-spacing: -0.05em;
   margin: 0;
 }
+.names{
+  padding-top: 350px;
+  padding-bottom: 0;
+  font-size: 6.54rem;
+  margin-bottom: 0;
+}
 
 
 .popup-youtube{
+  margin: 0;
   display:inline-block;
   color:#fff;
   font-size: 1.26rem;
