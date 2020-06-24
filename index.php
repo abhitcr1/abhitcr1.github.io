@@ -1,4 +1,5 @@
 <?php
+include_once("home.html");
 $name = $_POST["name"];
 $email = $_POST["email"];
 $subject = $_POST["subject"];
