@@ -2076,7 +2076,11 @@ a.brand:focus{
     display: block;
   }
 }
-
+.resume{
+  padding-bottom: 200px;
+  font-size: 0.5em;
+  text-underline-position: below;
+}
 
 
 /* 5.6 Min Height 700px */
